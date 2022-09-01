@@ -1,0 +1,19 @@
+div{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: 30px 30px 30px 30px;
+    border: 200px gray;
+    display: inline-block;
+    padding: 10px 20px;
+    border-color: blueviolet;
+    border border-style: solid;
+}
+.Contenedor{
+background-color: green;
+}
+
+
+#siu{
+letter-spacing: normal;
+}
