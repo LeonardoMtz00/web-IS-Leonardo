@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@300&display=swap');
+</style>
+.root{
+    /* font-size: 10px; */
+}
+body{
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+    width:60%;
+    margin-left: 250px;
+    background-color: #cfcfcf;
+}
+.contenedorindice{
+    border:2px solid rgb(183, 12, 12);
+    /* da la forma redondeada */
+   border-radius:22px;
+   /* padding vertical */
+   padding-block: 10px;  
+   /* padding horizontal */
+   padding-inline: 25px;
+   /* margen inferior */
+   margin-bottom: 20px;
+}
+.contenedort{
+    /* height: 0px;
+    width: 810px;
+    
+    border: 5px #8fdc91 outset; */
+}
+.contenedor{
+    /* align-content: center;
+    height: 300px;
+    width: 800px;
+    border: 10px rgb(114, 192, 255) dashed;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    margin-left: auto;
+	margin-right: auto; */
+}
+.contenedori{
+    
+    height: auto;
+    width: 200px;
+    /* border: 10px rgb(126, 22, 211) double; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    
+    margin-left: auto;
+	margin-right: auto; 
+}
+.contenedorp{
+    
+    /* height: 100px; */
+    /* width: 800px; */
+    /* border: 5px rgb(194, 130, 202) groove; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    text-align: justify;
+
+    margin-left: auto;
+	margin-right: auto;
+    /* background-color: #e0d4ff; */
+    
+}
+
+.intro{
+    /* background-color: blueviolet; */
+    font-style: italic;
+    text-align:center;
+    margin-left: auto;
+	margin-right: auto;
+    font-size: 22px;
+}
+.table{
+    font-style: bold;
+    margin: 10px;
+    padding: 10px;
+}
+.titulo{
+    text-align:center;
+    
+}
+td{
+    border: 1px black solid;
+    margin: 1px ;
+    padding: 10px;
+    
+}
+
+
+@media  and { 
+    max-width: 768px;
+    .elemento{
+        background-color: yellow;
+    }
+    .contenedor{
+        align-items: flex-end;
+    }
+}
